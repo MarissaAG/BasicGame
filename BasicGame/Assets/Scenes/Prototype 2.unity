@@ -460,7 +460,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 28.1, z: 22}
+  m_LocalPosition: {x: -0.036, y: 26.134, z: 21.852}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -646,7 +646,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &2007221384
+--- !u!1001 &1997755452
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -655,7 +655,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3562447792108040068, guid: b07dc7007ef870844ad31d8f7e652f3c, type: 3}
       propertyPath: m_Name
-      value: Food_Banana_01 (1)
+      value: Food_Banana_01
       objectReference: {fileID: 0}
     - target: {fileID: 3565667798469717788, guid: b07dc7007ef870844ad31d8f7e652f3c, type: 3}
       propertyPath: m_RootOrder
@@ -663,15 +663,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565667798469717788, guid: b07dc7007ef870844ad31d8f7e652f3c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.372
+      value: 2.9958968
       objectReference: {fileID: 0}
     - target: {fileID: 3565667798469717788, guid: b07dc7007ef870844ad31d8f7e652f3c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.88
+      value: 3.9792793
       objectReference: {fileID: 0}
     - target: {fileID: 3565667798469717788, guid: b07dc7007ef870844ad31d8f7e652f3c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 26.905813
+      value: 29.80042
       objectReference: {fileID: 0}
     - target: {fileID: 3565667798469717788, guid: b07dc7007ef870844ad31d8f7e652f3c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -832,6 +832,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2799016388088067691, guid: 8a91d4382aa7861418e83d9e94d7e3de, type: 3}
+      propertyPath: xRange
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 2799016388088067691, guid: 8a91d4382aa7861418e83d9e94d7e3de, type: 3}
       propertyPath: projectilePrefab
       value: 
