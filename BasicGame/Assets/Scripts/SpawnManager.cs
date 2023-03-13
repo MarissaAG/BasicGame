@@ -9,7 +9,9 @@ public class SpawnManager : MonoBehaviour
     private float spawnPosZ = 20;
     private float startDelay = 2f;
     private float spawnInterval = 1.5f;
-    private float spawnRangeY = 20;
+    public float sideSpawnMinZ;
+    public float sideSpawnMaxZ;
+    public float sideSpawnX;
 
     void Start()
     {
@@ -19,14 +21,32 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+
     }
     void SpawnRandomAnimal()
     {
         Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
-        Vector3 spawnPos1 = new Vector3(0, Random.Range (-spawnRangeY, spawnRangeY), spawnPosZ);
         int animalIndex = Random.Range(0, animalPrefabs.Length);
         Instantiate(animalPrefabs[animalIndex], spawnPos,
             animalPrefabs[animalIndex].transform.rotation);
     }
+
+    void SpawnLeftAnimal()
+    {
+        int animalIndex = Random.Range(0, animalPrefabs.Length);
+        Vector3 spawnPos = new Vector3(-sideSpawnX, 0, Random.Range(sideSpawnMinZ,
+       sideSpawnMaxZ));
+        Instantiate(animalPrefabs[animalIndex], spawnPos,
+            animalPrefabs[animalIndex].transform.rotation);
+    }
+
+    void SpawnRightAnimal()
+    {
+            int animalIndex = Random.Range(0, animalPrefabs.Length);
+       Vector3 spawnPos = new Vector3(sideSpawnX, 0, Random.Range(sideSpawnMinZ,
+      sideSpawnMaxZ));
+        Instantiate(animalPrefabs[animalIndex], spawnPos,
+         animalPrefabs[animalIndex].transform.rotation);
+    }
+
 }

@@ -736,6 +736,9 @@ MonoBehaviour:
   - {fileID: 2594544947358418973, guid: 64d04ec0711bcfc40ae37c040012302f, type: 3}
   - {fileID: 5821721967613265983, guid: 786d2f2e12e54e64a81f8bba8df4ee18, type: 3}
   - {fileID: 1079394566155594815, guid: a6203d25f45c2884fac1a5ab706880c1, type: 3}
+  sideSpawnMinZ: 0
+  sideSpawnMaxZ: 0
+  sideSpawnX: 0
 --- !u!4 &1950490586
 Transform:
   m_ObjectHideFlags: 0
@@ -882,11 +885,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2594544947358180575, guid: 64d04ec0711bcfc40ae37c040012302f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.992644
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: 2594544947358180575, guid: 64d04ec0711bcfc40ae37c040012302f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00000047683716
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2594544947358180575, guid: 64d04ec0711bcfc40ae37c040012302f, type: 3}
       propertyPath: m_LocalPosition.z
