@@ -317,11 +317,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565667798469717788, guid: b07dc7007ef870844ad31d8f7e652f3c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.91
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 3565667798469717788, guid: b07dc7007ef870844ad31d8f7e652f3c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.702
+      value: 1.96
       objectReference: {fileID: 0}
     - target: {fileID: 3565667798469717788, guid: b07dc7007ef870844ad31d8f7e652f3c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -758,6 +758,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2768170739313532383, guid: b07dc7007ef870844ad31d8f7e652f3c, type: 3}
+      propertyPath: m_UseGravity
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3562447792108040068, guid: b07dc7007ef870844ad31d8f7e652f3c, type: 3}
       propertyPath: m_Name
       value: Food_Banana_01

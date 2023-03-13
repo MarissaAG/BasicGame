@@ -597,6 +597,7 @@ GameObject:
   - component: {fileID: 2799016388413288234}
   - component: {fileID: 2799016388403396836}
   - component: {fileID: 2799016388088067691}
+  - component: {fileID: 657319086984459197}
   m_Layer: 0
   m_Name: SimpleFarmer_Man_02_Brown
   m_TagString: Untagged
@@ -660,6 +661,20 @@ MonoBehaviour:
   speed: 20
   xRange: 10
   projectilePrefab: {fileID: 0}
+  verticalInput: 0
+--- !u!65 &657319086984459197
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2799016388412928842}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3.0254698, z: 1}
+  m_Center: {x: -0, y: 1.4379764, z: 0}
 --- !u!1 &2799016388412928846
 GameObject:
   m_ObjectHideFlags: 0
