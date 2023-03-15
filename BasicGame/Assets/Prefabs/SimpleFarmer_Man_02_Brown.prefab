@@ -662,6 +662,7 @@ MonoBehaviour:
   xRange: 10
   projectilePrefab: {fileID: 0}
   verticalInput: 0
+  projectileSpawnPoint: {fileID: 0}
 --- !u!65 &657319086984459197
 BoxCollider:
   m_ObjectHideFlags: 0
